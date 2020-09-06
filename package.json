@@ -1,0 +1,21 @@
+{
+  "name": "AGENDA_CRUD_LOWDB",
+  "version": "1.0.0",
+  "description": "Agenda simple",
+  "main": "index.js",
+  "repository": "https://github.com/jiaccanche/AGENDA_CRUD_LOWDB.git",
+  "author": "Jorge Canche <jcanchecauich@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js --ignore db.json"
+  }
+}
