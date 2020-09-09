@@ -7,9 +7,13 @@
   "author": "Jorge Canche <jcanchecauich@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "lowdb": "^1.0.0",
     "morgan": "^1.10.0",
+    "node-env-file": "^0.1.8",
     "uuid": "^8.3.0"
   },
   "devDependencies": {

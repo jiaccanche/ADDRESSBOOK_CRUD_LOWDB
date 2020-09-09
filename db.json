@@ -1,5 +1,22 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "0c73107c-9d0d-4abc-a9e2-d07592b8fc79",
+      "name": "Jorgito",
+      "email": "jcanchecauich@gmail.com",
+      "password": "$2a$08$tgJcN6D/7EIp89eCf0baOOf4MMOc6CK.1EY5aFDhCV7TMUWKiM9Aa",
+      "telephone": "9991151968",
+      "age": "22"
+    },
+    {
+      "id": "83e1af8c-6ad1-4794-9654-8becf9879ce3",
+      "name": "Jorgito",
+      "email": "jorge.auzzmid@gmail.com",
+      "password": "$2a$08$6z7OrIVhmqcZtbO8oDr8wuV82UkniBGCPuydh79la55CwqOTO.PSW",
+      "telephone": "9991151968",
+      "age": "22"
+    }
+  ],
   "contacts": [
     {
       "id": "44cb0b93-44fc-490f-bb8c-26cc6914eb93",
