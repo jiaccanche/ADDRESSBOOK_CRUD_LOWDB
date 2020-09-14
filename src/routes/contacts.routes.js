@@ -1,12 +1,14 @@
 const { Router } = require('express');
+const { authenticateToken } = require('../controlers/auth.controller');
 const { getContacts, createContact, getContact, updateContact, deleteContact } = require('../controlers/contacts.controller');
+const { validateContacts } = require('../middleware/contacts.validation');
 const router = Router();
 
-router.get('/users/:userid/contacts/',getContacts);
-router.get('/users/:userid/contacts/:id',getContact);
-router.post('/users/:userid/contacts/', createContact);
-router.put('/users/:userid/contacts/:id',updateContact);
-router.delete('/users/:userid/contacts/:id', deleteContact);
+router.get('/contacts/', authenticateToken, getContacts);
+router.get('/contacts/:id', validateContacts('getContact'),authenticateToken, getContact);
+router.post('/contacts/', validateContacts('createContact'), authenticateToken, createContact);
+router.put('/contacts/:id', validateContacts('updateContact'),authenticateToken ,updateContact);
+router.delete('/contacts/:id', validateContacts('deleteContact'), authenticateToken,deleteContact);
 
 
 module.exports = router;

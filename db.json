@@ -2,11 +2,11 @@
   "users": [
     {
       "id": "0c73107c-9d0d-4abc-a9e2-d07592b8fc79",
-      "name": "Jorgito",
+      "name": "Carlos Perez",
       "email": "jcanchecauich@gmail.com",
       "password": "$2a$08$tgJcN6D/7EIp89eCf0baOOf4MMOc6CK.1EY5aFDhCV7TMUWKiM9Aa",
       "telephone": "9991151968",
-      "age": "22"
+      "age": "24"
     },
     {
       "id": "83e1af8c-6ad1-4794-9654-8becf9879ce3",
@@ -15,14 +15,50 @@
       "password": "$2a$08$6z7OrIVhmqcZtbO8oDr8wuV82UkniBGCPuydh79la55CwqOTO.PSW",
       "telephone": "9991151968",
       "age": "22"
+    },
+    {
+      "id": "727f150c-a904-4b0c-917c-79b4910f76ef",
+      "name": "Jorgito",
+      "email": "jorgehighsoft@gmail.com",
+      "password": "$2a$08$j4ghXRL.VtkyCkr0745qxOiV40tW5dU0KgjJ8twdhdi.Y/PA6oJgy",
+      "telephone": "9991151968",
+      "age": "22"
     }
   ],
   "contacts": [
     {
-      "id": "44cb0b93-44fc-490f-bb8c-26cc6914eb93",
-      "name": "Jorge",
-      "celular": "9991151968",
-      "telefono": "999191991"
+      "id_user": "0c73107c-9d0d-4abc-a9e2-d07592b8fc79",
+      "list": [
+        {
+          "id": "a44ec4bd-709f-4611-aefc-07662e2b3cf5",
+          "name": "Carlos",
+          "celular": "9991151968",
+          "telefono": "999191991"
+        },
+        {
+          "id": "f97bec71-47f5-4cca-88d0-c55b8c19754f",
+          "name": "",
+          "celular": "9991151968",
+          "telefono": "999191991"
+        },
+        {
+          "id": "6f2365fe-9142-4ab7-9e31-91995afa10e0",
+          "celular": "9991151968",
+          "telefono": "999191991"
+        },
+        {
+          "id": "39ee1da8-fddf-4a30-83f6-84ab1c87566a",
+          "name": "Jorge Canche",
+          "celular": "99999999999",
+          "telefono": "9991919919"
+        },
+        {
+          "id": "6a8a27a7-7b1e-4d30-810e-84dce84b9f89",
+          "name": "AlexSandro Canche",
+          "celular": "9991999191",
+          "telefono": "9991919919"
+        }
+      ]
     }
   ]
 }
